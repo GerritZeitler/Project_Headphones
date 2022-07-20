@@ -1,0 +1,145 @@
+/* ----- Font ----- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+font-family: 'Work Sans', sans-serif; 
+*/
+
+
+
+/* -------- GENERALS --------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: #2e2e2e;
+    width: 98vw;
+}
+
+a {
+    text-decoration: none;
+    color: #867772;
+}
+
+/*  ----- NAVIGATION ----- */
+
+
+.headnav {
+    display: flex;
+    position: fixed;
+    width: 90vw;
+    justify-content: space-between;
+    z-index: 999;
+    margin: 20px 20px;
+}
+
+.headnav>img {
+    margin-left: 3vw;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    align-items: center;
+
+}
+
+.social>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    list-style: none;
+
+}
+
+.underline-animation:hover {
+    color: rgb(234, 204, 194);
+    text-decoration: underline;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.highlight:hover {
+    color: rgb(234, 204, 194);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+
+.asidearticle {
+    display: flex;
+    margin: 0px 20px;
+}
+
+.aside {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 10vw;
+    margin-top: 10%;
+
+}
+
+/* MAIN SECTION */
+
+.aboutimg {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.aboutimg>h1 {
+    max-width: 370px;
+    text-align: start;
+    margin: 0 auto;
+    color: #ebccc2;
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 8%;
+    margin-left: 25vw;
+}
+
+.aboutimg img {
+    margin: 0 auto;
+    max-width: 87vw;
+
+}
+
+
+.designalchemy {
+    max-width: 87vw;
+    display: flex;
+    margin: 10% auto;
+    justify-content: center;
+}
+
+.designalchemy img {
+    max-width: 30vw;
+}
+
+.designalchemy div {
+    max-width: 39vw;
+    padding-top: 3vw;
+    padding-left: 5vw;
+}
+
+.designalchemy div h2 {
+    font-size: 35px;
+    font-weight: 300;
+    padding-bottom: 2vw;
+    color: #ebccc2;
+}
+
+.designalchemy div p {
+    color: #867772;
+    padding-bottom: 2vw;
+    line-height: 25px;
+}
